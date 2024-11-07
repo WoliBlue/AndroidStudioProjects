@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1,2,3"
+    tools:context=".MainActivity">
+
+
+    <TableRow android:background="@color/azul">
+        <TextView android:text="Nombre"/>
+        <TextView android:text="Dpto"/>
+        <TextView android:text="Ciudad"/>
+        <TextView android:text="Porcentaje"/>
+        <TextView android:text="Edad"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="Antonio" />
+        <TextView android:text="Math"/>
+        <TextView android:text="Málaga"/>
+        <TextView android:text="30%"/>
+
+        <TextView
+            android:id="@+id/id1"
+            android:text="25" />
+    </TableRow>
+
+    <TableRow android:background="@color/azulclaro">
+        <TextView android:text="Juan"/>
+        <TextView android:text="Lengua"/>
+        <TextView android:text="Cádiz"/>
+        <TextView android:text="60%"/>
+        <TextView android:text="28" android:id="@+id/id2"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Silvia"/>
+        <TextView android:text="Historia"/>
+        <TextView android:text="Granada"/>
+        <TextView android:text="25%"/>
+        <TextView android:text="35" android:id="@+id/id3"/>
+    </TableRow>
+
+    <TableRow android:background="@color/azulclaro">
+        <TextView android:text="Pedro"/>
+        <TextView android:text="Tecnología"/>
+        <TextView android:text="Sevilla"/>
+        <TextView android:text="10%"/>
+        <TextView android:text="48" android:id="@+id/id4"/>
+    </TableRow>
+
+    <TableRow >
+        <TextView android:text="Elena"/>
+        <TextView android:text="Math"/>
+        <TextView android:text="Jaén"/>
+        <TextView android:text="25%"/>
+        <TextView android:text="33" android:id="@+id/id5"/>
+    </TableRow>
+
+    <TableRow android:background="@color/azulclaro">
+        <TextView android:text="Marcos"/>
+        <TextView android:text="Lengua"/>
+        <TextView android:text="Málaga"/>
+        <TextView android:text="35%"/>
+        <TextView android:text="70" android:id="@+id/id6"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Luis"/>
+        <TextView android:text="Lengua"/>
+        <TextView android:text="Madrid"/>
+        <TextView android:text="55%"/>
+        <TextView android:text="13" android:id="@+id/id7"/>
+    </TableRow>
+
+    <TableRow android:background="@color/azulclaro">
+        <TextView android:text="Miguel"/>
+        <TextView android:text="Math"/>
+        <TextView android:text="Granada"/>
+        <TextView android:text="55%"/>
+        <TextView android:text="47" android:id="@+id/id8"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Francisco"/>
+        <TextView android:text="Sevilla"/>
+        <TextView android:text="Málaga"/>
+        <TextView android:text="85%"/>
+        <TextView android:text="77" android:id="@+id/id9"/>
+    </TableRow>
+
+    <TableRow android:background="@color/azulclaro">
+        <TextView android:text="Pedro"/>
+        <TextView android:text="Sevilla"/>
+        <TextView android:text="Málaga"/>
+        <TextView android:text="25%"/>
+        <TextView android:text="25" android:id="@+id/id10"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="RESULTADO"
+            android:layout_span="4"/>
+        <TextView android:text="" android:id="@+id/idResultado"/>
+
+    </TableRow>
+
+
+</TableLayout>

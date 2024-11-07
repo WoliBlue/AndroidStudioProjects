@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:backgroundTint="@color/gris_claro"
+
+    android:padding="2dp"
+    android:paddingEnd="2dp"
+    android:paddingStart="2dp"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/idTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id:"
+            android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/idEdit"
+        android:minHeight="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_weight="1"
+        android:background="@color/azul_cielo"
+        android:hint="694654X" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nombreTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre y Apellidos:"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/nombreEdit"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:background="@color/azul_cielo"
+            android:hint="Emilio Vargas Delegado" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fechaexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha:"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/fechaEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:inputType="text"
+            android:background="@color/azul_cielo"
+            android:hint="28/6/2004" />
+
+        <TextView
+            android:id="@+id/dienteTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero dientes:"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/dienteEdit"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:background="@color/azul_cielo"
+            android:hint="100 o menos" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/edadTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edad:"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/edadEdit"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:background="@color/azul_cielo"
+            android:hint="19"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingTop="15dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/SangradoTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sangrado:"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/SangradoEdit"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:background="@color/azul_cielo"
+            android:hint="Sangrado"
+            />
+
+        <Button
+            android:id="@+id/Sangradobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="calculaSangradoRiesgo"
+            android:text="Dale" />
+
+        <TextView
+            android:id="@+id/RiesgoSangrado"
+            android:layout_width="match_parent"
+            android:background="@color/gris_claro"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RIESGO" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/AusenciaTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ausencia:"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/PerdidaEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/azul_cielo"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:hint="Perdida" />
+
+        <Button
+            android:id="@+id/Perdidabutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="calculaPerdidaRiesgo"
+            android:text="Dale" />
+
+        <TextView
+            android:id="@+id/RiesgoAusencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gris_claro"
+            android:layout_weight="1"
+            android:text="RIESGO" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/InsercionTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perdida Insercion:"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/InsercionEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:background="@color/azul_cielo"
+            android:hint="Insercion"
+            />
+
+        <Button
+            android:id="@+id/Insercionbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="calculaInsercionRiesgo"
+            android:text="Dale" />
+
+        <TextView
+            android:id="@+id/RiesgoInsercion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gris_claro"
+            android:layout_weight="1"
+            android:text="RIESGO" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/DiabetesTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diabetes:"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/DiabetesEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:background="@color/azul_cielo"
+            android:hint="0 o 1"
+            />
+
+        <Button
+            android:id="@+id/DiabetesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="calculaDiabetesRiesgo"
+            android:text="Dale" />
+
+        <TextView
+            android:id="@+id/RiesgoDiabetes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gris_claro"
+            android:layout_weight="1"
+            android:text="RIESGO" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/TabacoTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tabaco:"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/TacaboEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/azul_cielo"
+            android:hint="1 si fumas, 2 si no, 3 si poco"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textSize="9sp"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/TabacoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="calculaTabacoRiesgo"
+            android:text="Dale" />
+
+        <TextView
+            android:id="@+id/RiesgoTabaco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/gris_claro"
+            android:text="RIESGO" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/ProfundidadTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profunidad Bolsa:"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/ProfundidadEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:background="@color/azul_cielo"
+            android:hint="0-8"
+            />
+
+        <Button
+            android:id="@+id/ProfundidadButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="calculaProfundidadRiesgo"
+            android:text="Dale" />
+
+        <TextView
+            android:id="@+id/RiesgoProfundiad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/gris_claro"
+            android:text="RIESGO" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/PorcentajeTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total:"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/PorcentajeEdit"
+            android:minHeight="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:background="@color/azul_cielo"
+            android:hint="% de riesgo"
+            />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/morado_violeta"
+        android:layout_weight="200"
+        app:srcCompat="@drawable/diente" />
+
+
+</LinearLayout>

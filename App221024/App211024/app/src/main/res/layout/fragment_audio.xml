@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_gradiente3">
+
+    <!-- Texto que muestra "AUDIO" -->
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mab"
+        android:text="MUSICOTE MUSICOTE"
+        android:textColor="@color/gris_oscuro"
+        android:textSize="34sp" />
+
+    <!-- Botón para reproducir audio -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/miscportada" />
+    <TextView
+        android:id="@+id/NowPlaying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text=""
+        android:textColor="@color/verde_lima" />
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reproducir Audio" />
+
+    <!-- Botón para pausar audio -->
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pausar Audio" />
+
+    <!-- Botón para reanudar audio -->
+    <Button
+        android:id="@+id/resumeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reanudar Audio" />
+
+    <!-- Botón para detener audio -->
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detener Audio" />
+
+    <!-- Botón para reiniciar audio -->
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar Audio" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <!-- Botón para avanzar audio -->
+        <Button
+            android:id="@+id/seekForwardButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9800"
+            android:text="Avanzar 10s" />
+
+    <!-- Botón para retroceder audio -->
+        <Button
+            android:id="@+id/seekBackwardButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9800"
+            android:text="Retroceder 10s" />
+    </LinearLayout>
+    <!-- Botón para silenciar audio -->
+    <Button
+        android:id="@+id/muteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silenciar" />
+
+    <!-- Botón para reactivar sonido -->
+    <Button
+        android:id="@+id/unmuteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reactivar Sonido" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/previousSongButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E91E63"
+            android:text="ANTERIOR CANCION" />
+
+        <Button
+            android:id="@+id/nextSongButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E91E63"
+            android:text="SIGUIENTE CANCION" />
+
+    </LinearLayout>
+
+</LinearLayout>

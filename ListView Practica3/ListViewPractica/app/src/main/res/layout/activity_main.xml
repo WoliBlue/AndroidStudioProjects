@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnKFCMarbella"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir Google Maps"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnLlamaAlPepe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Llama al Pepe"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnVeAYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ve al youtube"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listViewConsolas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF" />
+
+
+</LinearLayout>

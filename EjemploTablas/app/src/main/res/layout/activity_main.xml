@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1,2"
+    tools:context=".MainActivity">
+
+
+
+
+    <TableRow>
+        <TextView android:text="@string/String1" />
+        <TextView android:text="@string/String2" />
+        <TextView android:text="@string/String3" />
+        <TextView android:text="  4" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/String4" />
+        <TextView android:text="@string/String5" />
+        <TextView android:text="@string/String6" />
+        <TextView android:text="  5" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/String7"
+            android:layout_span="2" />
+        <TextView android:text="@string/String8"/>
+        <TextView android:text=" " />
+
+    </TableRow>
+
+
+
+
+
+
+</TableLayout>

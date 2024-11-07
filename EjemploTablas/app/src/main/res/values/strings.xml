@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EjemploTablas</string>
+    <string name="String1">CELDA 1.1</string>
+    <string name="String2">CELDA 1.2</string>
+    <string name="String3">CELDA 1.3</string>
+    <string name="String4">CELDA 2.1</string>
+    <string name="String5">CELDA 2.2</string>
+    <string name="String6">CELDA 2.3</string>
+    <string name="String7">CELDA doble de ancho 3.1</string>
+    <string name="String8">CELDA 3.2</string>
+
+</resources>

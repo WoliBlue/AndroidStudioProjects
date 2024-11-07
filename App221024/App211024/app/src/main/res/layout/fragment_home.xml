@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_gradiente2">
+
+
+    <TextView
+        android:id="@+id/homerozona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="BIENVENIDO A LA HOMERO ZONA, DISFRUTA TU HOMERO ESTANCIA AQUI, TEN UN DIA HOMEROTÁSTICO"
+        android:textColor="@color/azul" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/plans"
+        android:lineSpacingExtra="8sp"
+        android:shadowColor="@color/black"
+        android:text="HOME"
+        android:textColor="@color/amarillo_claro"
+        android:textSize="60sp" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showServesaToast"
+        android:src="@drawable/homero"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:id="@+id/cositas"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="-1"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:focusable="true"
+        android:fadingEdge="horizontal"
+        android:fadingEdgeLength="20dp"
+        android:focusableInTouchMode="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" -  pulsa las cositas  -  pulsa las cositas -  pulsa las cositas"
+        android:textSize="16sp"
+        android:fontFamily="@font/mpar"
+        android:typeface="serif"
+        android:textColor="@color/morado_violeta"/>
+
+
+</LinearLayout>

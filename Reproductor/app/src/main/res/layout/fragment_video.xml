@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".videoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/malaga"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <WebView
+                    android:id="@+id/webView"
+                    android:layout_width="match_parent"
+                    android:layout_height="264dp"
+
+                    android:layout_margin="15sp"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginEnd="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginBottom="15sp"
+                    android:background="#100E0E"
+                    android:backgroundTint="#0E0B0B"
+                    android:clipToPadding="false"
+                    android:padding="15sp"
+                    android:paddingStart="15sp"
+                    android:paddingLeft="15sp"
+                    android:paddingTop="15sp"
+                    android:paddingEnd="15sp"
+                    android:paddingRight="15sp"
+                    android:paddingBottom="15sp" />
+
+                <WebView
+                    android:id="@+id/webView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="264dp"
+
+                    android:layout_margin="15sp"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginEnd="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginBottom="15sp"
+                    android:background="#100E0E"
+                    android:backgroundTint="#0E0B0B"
+                    android:padding="15sp"
+                    android:paddingStart="15sp"
+                    android:paddingLeft="15sp"
+                    android:paddingTop="15sp"
+                    android:paddingEnd="15sp"
+                    android:paddingRight="15sp"
+                    android:paddingBottom="15sp" />
+
+                <WebView
+                    android:id="@+id/webView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="264dp"
+                    android:layout_margin="15sp"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginEnd="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginBottom="15sp"
+                    android:background="#100E0E"
+                    android:backgroundTint="#0E0B0B"
+                    android:padding="15sp"
+                    android:paddingStart="15sp"
+                    android:paddingLeft="15sp"
+                    android:paddingTop="15sp"
+                    android:paddingEnd="15sp"
+                    android:paddingRight="15sp"
+                    android:paddingBottom="15sp" />
+
+                <WebView
+                    android:id="@+id/webView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="264dp"
+                    android:layout_margin="15sp"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginEnd="15sp"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginBottom="15sp"
+                    android:background="#100E0E"
+                    android:backgroundTint="#0E0B0B"
+                    android:padding="15sp"
+                    android:paddingStart="15sp"
+                    android:paddingLeft="15sp"
+                    android:paddingTop="15sp"
+                    android:paddingEnd="15sp"
+                    android:paddingRight="15sp"
+                    android:paddingBottom="15sp" />
+
+                <!--   <VideoView
+                       android:id="@+id/videoView"
+                       android:layout_width="309dp"
+                       android:layout_height="159dp"
+                       android:layout_gravity="center"/>
+
+                   <VideoView
+                       android:id="@+id/videoView2"
+                       android:layout_width="309dp"
+                       android:layout_height="159dp"
+                       android:layout_gravity="center_horizontal"
+                       />
+
+                   <VideoView
+                       android:id="@+id/videoView3"
+                       android:layout_width="309dp"
+                       android:layout_height="159dp"
+                       android:layout_gravity="center_horizontal"
+                        />
+
+                   <VideoView
+                       android:id="@+id/videoView4"
+                       android:layout_width="309dp"
+                       android:layout_height="159dp"
+                       android:layout_gravity="center_horizontal"
+                        /> -->
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+   </FrameLayout>

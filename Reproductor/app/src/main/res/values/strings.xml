@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Reproductor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nuevo_contenido">Nuevo Contenido de \n<b>David Guetta</b></string>
+
+</resources>

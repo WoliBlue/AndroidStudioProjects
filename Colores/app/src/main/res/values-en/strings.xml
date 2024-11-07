@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">colours</string>
+    <string name="Primera">the pepelin</string>
+    <string name="Segunda">a pepelin</string>
+    <string name="Tercera">many pepelin</string>
+    <string name="hola">HELLO HELLO SNAIL</string>
+    <string name="hola2">BYE BYE CROCODILE</string>
+    <string name="boton">THIS IS A BUTTON</string>
+    <string name="boton2">THIS IS ANOTHER BUTTON</string>
+    <string name="boton3">THIS IS THE LAST BUTTON</string>
+    <string name="boton4">GET THE TEXT BACK</string>
+    <string name="switch1">DOES NOTHING</string>
+</resources>

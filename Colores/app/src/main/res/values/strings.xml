@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Colores</string>
+
+    <string name="Primera">EL PEPELINO</string>
+    <string name="Segunda">UN PEPELINO</string>
+    <string name="Tercera">VARIOS PEPELINOS</string>
+
+    <string name="hola">HOLA HOLA CARACOLA</string>
+    <string name="hola2">HASTA LUEGO COCODRILO</string>
+
+    <string name="boton">ESTO ES UN BOTON</string>
+    <string name="boton2">ESTO ES OTRO BOTON, DISTINTO</string>
+    <string name="boton3">ultimo boton, LO JURO</string>
+    <string name="boton4">DEVUELVE EL TEXTO</string>
+
+    <string name="switch1">"NO HACE NA' ----> "</string>"
+</resources>

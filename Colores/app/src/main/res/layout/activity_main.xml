@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/azul"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/saludo5"
+            android:layout_height="wrap_content"
+            android:text="@string/Primera" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/saludo4"
+            android:layout_height="wrap_content"
+            android:text="@string/Segunda" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/saludo3"
+            android:layout_height="wrap_content"
+            android:text="@string/Tercera"
+            android:textColor="@color/morado"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/verde"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/saludo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hola"
+            android:textColor="@color/morado"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/rojo"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/saludo1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hola2"
+            android:textColor="@color/morado" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="120dp"
+            android:minHeight="80dp"
+            android:text="@string/boton3" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:background="@color/mar"
+        android:orientation="vertical">
+
+        <Button
+
+            android:id="@+id/granboton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="400dp"
+            android:minHeight="150dp"
+            style="@style/CarlosMaria"
+            android:text="@string/boton4" />
+    </LinearLayout>
+
+    <Switch
+        style="@style/JavierMarin"
+        android:id="@+id/switch1"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:text="@string/switch1"
+        />
+
+
+</LinearLayout>
+
+
+
