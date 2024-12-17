@@ -29,7 +29,7 @@ public class MostrarDatosActivity extends Activity {
 
         // SE MUESTRAN LAS COLUMNAS
         String[] DE = new String[] {"nombre", "apellido", "telefono", "email", "direccion"};
-        // SE MUESTRAN LOS DATOS
+        // SE MUESTRAN LOS DAtOS
         int[] DESDE = new int[] {R.id.txtNombre, R.id.txtApellido, R.id.txtTelefono, R.id.txtEmail, R.id.txtDireccion};
 
         // EL SIMPLECURSORADAPTER VINCULA LOS DATOS AL LISTVIEW
